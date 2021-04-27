@@ -1,0 +1,55 @@
+body {
+  font-family: "Kurale", serif;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+li {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  list-style: none;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 100px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+}
+
+.weather-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+
+.temperature {
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
